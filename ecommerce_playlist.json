@@ -1,0 +1,230 @@
+[
+    {
+        "title": "Full stack Project Introduction video 0 (Hindi)",
+        "url": "https://www.youtube.com/watch?v=d9emD-wnaB4",
+        "thumbnail": "https://i.ytimg.com/vi/d9emD-wnaB4/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial \nProject and channel short introduction video."
+    },
+    {
+        "title": "Java Monolithic architecture Introduction video 1 (Hindi)",
+        "url": "https://www.youtube.com/watch?v=ZCVRSlxMEYQ",
+        "thumbnail": "https://i.ytimg.com/vi/ZCVRSlxMEYQ/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial \nIntroduction about monolithic architecture, benefits and problems about the same."
+    },
+    {
+        "title": "Java Microservices architecture Video 2 (Hindi)",
+        "url": "https://www.youtube.com/watch?v=G9Oe-SzG-kY",
+        "thumbnail": "https://i.ytimg.com/vi/G9Oe-SzG-kY/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial This video is about the microservice architecture and flow diagram of the ecommerce project that we are going to make. In this video we have talked about what is microservice, benefits and why is it getting used."
+    },
+    {
+        "title": "Spring Boot Project structure video 3 (Hindi)",
+        "url": "https://www.youtube.com/watch?v=zC5wExc5gKA",
+        "thumbnail": "https://i.ytimg.com/vi/zC5wExc5gKA/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial \nIn this video we have discussed about Spring boot Project structure, how to create one, and how to run it on local machine and access it using intellij idea. @CodewithGaurav97"
+    },
+    {
+        "title": "Product API (Product Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 4",
+        "url": "https://www.youtube.com/watch?v=tloa7PjZ-A8",
+        "thumbnail": "https://i.ytimg.com/vi/tloa7PjZ-A8/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole Product API Service, which will be dealing with products related stuff.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime Stamps\n00:00 Generating spring boot projects for all project.\n01:24 Adding Dependencies in spring boot project.\n03:33 Extracting and moving to work place.\n05:23 Making new collection in Postman.\n06:06 Importing project inside Intellij Idea.\n08:08 Generating model package, super class(Auditable class).\n16:58 Making Product Model class.\n21:48 Adding configuration inside application.properties file related with MySQL and Hibernate, adding MySQL dependency inside pom.xml\n30:18 MySQL 5.5 Error Occurred.\n34:45 MySQL 5.5 Error Resolved, making product database.\n36:43 Making Repository which deal with database from our project.\n38:21 Writing Service Interface and Service Implementation code.\n46:11 Writing Controller Class, i.e. ProductController. (Pathvariable and responseBody and RepsonseEntity)\n53:11 Running project and testing API with postman, adding new Requests i.e. @getmapping, @postmapping, @putmapping and @deletemapping.\n58:31 Throwing Error from API to be sent to Postman/UI/Client to display.\n1:00:51 Writing code for Update and Delete Product.\n1:02:31 Making Product helper class, following industry standards.\n1:05:11 Writing Service Implementation logic for update and delete methods.\n1:10:56 Writing Controller Code for update and delete logic.\n1:13:03 Adding new Requests inside postman collection, i.e. for update and delete and testing through postman.\n1:16:13 Finally writing logic to throw exception from API to UI."
+    },
+    {
+        "title": "Data JPA Auditing to keep track of data @EnableJpaAuditing (Hindi) video 5",
+        "url": "https://www.youtube.com/watch?v=NUidogU0E8g",
+        "thumbnail": "https://i.ytimg.com/vi/NUidogU0E8g/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman #jpa #jpaauditing\n\nIn this video I told steps in order to keeps tracks of which user have created or updated specific records in database.\n\nAnnotations used\n@EnableJpaAuditing\n@MappedSuperClass\n@LastModifiedBy\n@LastModifiedDate\n@CreatedBy \n@CreatedDate"
+    },
+    {
+        "title": "Add Maven project into Spring Boot project as Dependency (Common code) Hindi Video 6",
+        "url": "https://www.youtube.com/watch?v=6qwaozHerls",
+        "thumbnail": "https://i.ytimg.com/vi/6qwaozHerls/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman #jpa #jpaauditing\n\nAnswer to the most asked Question How to add a maven project as a dependency into other projects, Spring boot project.\n\nTime Stamps\n00:32 Making new Maven Project.\n01:12 Building that project to check if there are any errors.\n01:32 Moving project into working directory.\n02:12 Opening Common (Maven project into Same Window as of Product API)\n02:52 Code changes for common and moving common code inside common from Product API, adding dependencies in pom.xml file\n10:02 Building Common jar so that it can be used inside the product API as a Dependency.\n10:52 Importing Common code inside Product API.\n12:22 Removing excess dependencies.\n13:42 Trying to run project but error occurred i.e. \"could not configure Spring data JPA auditing-feature because spring-aspects.jar is not on the classpath\" fix.\n16:02 Testing API with postman after Maven project injected as a Dependency to check if everything is working fine or not."
+    },
+    {
+        "title": "Eureka Discovery Server and Eureka Discovery Client ( registering product service ) Hindi video 7",
+        "url": "https://www.youtube.com/watch?v=d28DlnpaI1Y",
+        "thumbnail": "https://i.ytimg.com/vi/d28DlnpaI1Y/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #serviceregistry #eurekaserver #eurekadiscoverycserver \n\nIn this video we have done practical and made eureka discovery server and register product API as client.\n\n@EnableDiscoveryServer\n@EnableDiscoveryClient"
+    },
+    {
+        "title": "Documenting Spring Boot 3 API with Swagger Part 1 (Hindi) Video 8",
+        "url": "https://www.youtube.com/watch?v=B5cu3QtTqYs",
+        "thumbnail": "https://i.ytimg.com/vi/B5cu3QtTqYs/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #swagger #apidocumentation #documentation \n\nIn this video we have done documentation of our spring boot 3 API using swagger.\n\nDependency used:\n\ngroupId = org.springdoc\nartifactId = artifactIdspringdoc-openapi-starter-webmvc-ui\nversion 2.0.2\n\nNote: Follow along video, you'll not get any error."
+    },
+    {
+        "title": "(Spring boot 3) API gateway server for microservices, simplest explanation ever (Hindi) video 9",
+        "url": "https://www.youtube.com/watch?v=Qv3Vka8qSYc",
+        "thumbnail": "https://i.ytimg.com/vi/Qv3Vka8qSYc/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #apigateway #springboot3 #springcloud \n\nAPI Gateway server to give a single endpoint so that it can redirect your route URLs to specific microservices, implemented on Spring boot 3, Simplest explanation ever."
+    },
+    {
+        "title": "Order API (Order Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 10",
+        "url": "https://www.youtube.com/watch?v=oYgZrx1Ntmg",
+        "thumbnail": "https://i.ytimg.com/vi/oYgZrx1Ntmg/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole Order API Service, which will be dealing with Order related stuff with a separate Database.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime Stamps:\n00:00 Discussing about architecture of our microservice, where we are now and what we have achieved till now and what we are going to do next.\n03:27 Importing Order Spring boot 3 project in Intellij Idea.\n04:07 Setting up required dependencies.\n08:17 Setting up application.properties for order service and creating orderDB\n10:57 Enabling discovery client @EnableDiscoveryClient annotation so that it can register itself in registry service and @EnableJpaAuditing.\n11:27 Adding Model package and making order class, discussing about structure, extending Auditable and implementing serializable.\n22:37 Adding OrderRepository and a little discussion about repository.\n24:27 Telling about custom finder method or custom query method used in spring data Jpa with example.\n26:57 Adding Service package and adding method definitions.\n28:27 Adding OrderServiceImpl logic and service methods implementations.\n30:37 Writing Controller code and discussing about it a little.\n34:57 Doing routing configuration related with Order API in API-Gateway and testing.\n40:47 An interesting error or issue and it's solution i.e. ( you have an error in your SQL syntax)\n46:17 Adding Order Requests in Microservice Collection inside Postman.\n47:57 Adding @GetMapping methods inside controller for fetching order details full implementation till it's repository layer.\n56:37 Testing Order API with Postman through API-Gateway.\n1:03:07 Discussing about Microservices intercommunication logic that what is the need of that inside this Order API service.\n1:04:27 Adding DTO package inside Common for Custom responses and implementing that logic with OrderResponse and ProductResponse classes and using them inside these 2 microservices.\n1:10:07 Adding helper methods for product API.\n1:17:07 Adding helper methods for Order API and discussing about microservice implementation and adding it inside another video the very next video."
+    },
+    {
+        "title": "Order API Communication with Product API(Microservice communication using Feignclient)Hindi Video 11",
+        "url": "https://www.youtube.com/watch?v=SZPPW3La-84",
+        "thumbnail": "https://i.ytimg.com/vi/SZPPW3La-84/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman #openfeign #feign #feignclient #EnableFeignClients\n\nIn this video we have done Inter communication between Order and Product microservice.\n\nby mistake, I have added watermark in center, please ignore it."
+    },
+    {
+        "title": "Documenting Spring Boot 3 API with Swagger direct from application.properties Part 2 (Hindi)Video 12",
+        "url": "https://www.youtube.com/watch?v=17ehknA3FjU",
+        "thumbnail": "https://i.ytimg.com/vi/17ehknA3FjU/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #swagger #apidocumentation #documentation \n\nThis is continuation video of video no 8, in this video we have give information like name, API title, API description contact information of developer etc. and more importantly all information is not hardcoded all information comes from application.properties file. ( following best practices )\n\nIn this video we have done documentation of our spring boot 3 API using swagger.\n\nDependency used:\n\ngroupId = org.springdoc\nartifactId = artifactIdspringdoc-openapi-starter-webmvc-ui\nversion 2.0.2\n\nNote: Follow along video, you'll not get any error."
+    },
+    {
+        "title": "User API (User Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 13",
+        "url": "https://www.youtube.com/watch?v=9pb_mkJORAs",
+        "thumbnail": "https://i.ytimg.com/vi/9pb_mkJORAs/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole User API Service, which will be dealing with User related stuff with a separate Database.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime stamps\n00:00 Discussing what we will do in this video and importing user project in Intellij Idea\n02:36 Adding dependencies in pom.xml and properties in application.properties for Order API and adding annotation on the OrderApplication main java class.\n06:26 creating userDb for user API\n06:46 Starting model class code then repository, service and service implementation and then controller, discussing about different approach.\n29:56 Adding UserResponse class and its logic.\n31:26 Adding UserHelper utility method.\n34:26 Building Common and using it inside other projects.\n35:17 Starting UserApplication for the first time.\n35:57 Checking User-Service information/ entry on service registry i.e. on eureka server.\n36:17 Adding new folder i.e. user , under the collection and adding respective requests and testing the endpoints and correcting it.\n45:37 Adding API-Gateway configuration for user service.\n49:17 Altering Order model so that now we can get the desired output as discussed.\n50:27 Adding userService (feign client) in Order API which will talk to User service to get the data, finally writing code for the same and testing it and modifying it till it gives us the desired result."
+    },
+    {
+        "title": "Authorization Server Introduction in Hindi Video 14",
+        "url": "https://www.youtube.com/watch?v=_eEsdY7lcqQ",
+        "thumbnail": "https://i.ytimg.com/vi/_eEsdY7lcqQ/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #authorizationintro\n\nIn this video we have discussed the flow, what we have covered so far, and now moving forward discussing about Auth server and how to implement security in microservice.\n\nWe have discussed about, okta auth, oauth2.0 and implementing security through API Gateway, and examples of Authorization and authentication in real life.\n\nNote: For the time beign I am going forward with implementing security (JWT) from API-Gateway, as also discussed in video, but this is just personal decision you can also go ahead with whatever approach you like but as new phase of Oauth2.0 get stablize, i'll also make a video with that.\n\nTime stamps:\n00:00 Discussing about architecture, which we have covered and introducing auth in architecture.\n03:27 Discussing about implementation of security.\n05:12 Discussing about oauth2.0\n09:40 Discussing about implementing security through API-Gateway what we will follow.\n14:08 Okta Oauth\n15:08 Real life example of Authentication and Authorization."
+    },
+    {
+        "title": "Full AUTH server implementation Microservice Security on API gateway JWT in Hindi Video 15",
+        "url": "https://www.youtube.com/watch?v=YTneyTPuci8",
+        "thumbnail": "https://i.ytimg.com/vi/YTneyTPuci8/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #authorizationintro #authserver #jwt #springsecurity \n\nIn this video we have fully implemented AUTH server implemented microservice security using JWT token on API gateway side as discussed.\n\nTime stamps:\n00:22 Generating Auth project using spring initializr.\n01:05 Adding required dependencies.\n02:39 Importing inside our Intellij Idea.\n03:22 Adding mysql-connector-java and jwt dependency in auth pom.xml \n04:47 Enabling auth discovery client.\n05:09 Adding properties inside auth application.properties.\n06:33 Starting all the services (user, product, order, registry, api-gateway)\n08:25 Doing changes in User service to have password field and encrypting it, so that later auth can use the same user.\n16:55 Starting Auth implementation with creating controller that will generate jwt token. (writing whole logic, controller layer, service layer, etc)\n23:37 Discussing about jwt token, what it is actually? on jwt.io\n27:52 How to generate a 256 bit SECRET?\n28:45 Writing JWT Util class for JWT\n40:07 Adding Auth Service enter inside the API-Gateway server, then testing using postman.\n42:04 Creating AuthConfig class to give SecurityFilterChain implementation.\n46:29 ECDSA signing keys must be privateKey instances. (Exception InvalidKeyException) due to ES256 and correcting it.\n48:13 JWT token generated. now what?\n50:07 Adding userdetailsService implementation so that user can be validated from Database and if exists then only generate token.\n56:42 Writing logic for implementing UserDetails.\n1:04:06 Adding Authentication manager bean and it's logic.\n1:06:49 java.lang.stackOverFlowError:null Why does it happened and what did we miss?\n1:08:22 Adding UserDetailsService bean, password encoder bean and authentication provider bean and letting provider know to use my custom classes.\n1:12:25 Adding auth request inside postman collection, and testing.\n1:16:15 Discussing customizing jwt response and implementing it, optional you can skip this step.\n1:22:45 Adding Validate Controller so that this jwt token can be validated, and testing.\n1:30:29 Fetching user from the database for making custom jwt response better.\n1:32:29 Testing validate endpoint on postman.\n1:34:29 opening flow diagram of microservice architecture and discussing what we have covered and what else we are going to do forward.\n1:35:19 Starting implementing security on API-Gateway server, adding required dependecies.\n1:40:29 Adding Required filter to intercept the http request to verify jwt token, and writing filter logic.\n1:58:39 Testing it on postman.\n1:59:59 Last Step, Adding that filter entry inside api gateway routes, so that this filter can be executed.\n2:00:49 Again testing it on postman.\n2:02:19 Fully Implemented Auth server and microservice security on API-Gateway ( next we will start notification service )"
+    },
+    {
+        "title": "Sending Gmail mails, Confirmation email, ftl Freemarker template, Notification API in Hindi Video 16",
+        "url": "https://www.youtube.com/watch?v=HDwO4ZcuYfU",
+        "thumbnail": "https://i.ytimg.com/vi/HDwO4ZcuYfU/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #freemarkertemplate #ftl \n\nIn this video we are doing notification API, by send Emails using Gmail in 2023-24, enabling 2 factor authentication and using freemarker template .ftl file to send email and customizing it.\n\nThis is part 1, in this vide we have added code for only send emails.\nIn Part 2, we will add logic for confirmation emails for user and completing whole flow.\n\nTime stamps:\n00:22 Importing notification service in Intellij idea\n00:52 Discussing about whole architecture of email notification service.\n07:22 Adding dependencies\n10:22 Adding application.properties keys and values\n16:32 Adding notification Routes inside API Gateway server and registering with eureka\n17:42 Adding controller and logic for sending emails\n28:12 Adding html template inside ftl file so that we can use this template and send.\n29:24 Adding freemarker dependency\n38:54 Customizing ftl template to send values from spring boot side.\n47:24 Starting notification service and testing it using postman\n49:04 Error occured, org.springframework.mail.MailsendException: failed message: 530-5.7.0 must issue a STARTTLS command first.\n49:14 Adding application.properties starttls required = true and adding app password so that we can use this password inside our notification to send mail.\n50:04 Freemarker parsing problem.\n50:14 Code changes so that it can parse templates.\n54:34 Testing again from post man, mail sent successfully."
+    },
+    {
+        "title": "User Confirmation email part 2 (ftl) with spring security part 2 modifications, in Hindi Video 17",
+        "url": "https://www.youtube.com/watch?v=dHqbzYUgZWU",
+        "thumbnail": "https://i.ytimg.com/vi/dHqbzYUgZWU/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #freemarkertemplate #ftl \n\nFTL source code\nhttps://github.com/code-with-gaurav97/flt_source_for_mail_video\n\nThis video is continuation of Part 1, In this we will add logic for confirmation emails for user and completing whole flow.\n\nWhat we have covered in this?\n\n1. Make user inactive by default then\n2. For JWT we have changed some logic for isAccountNonExpired(), isAccountNonLocked(), isCredentialsNonExpired(), isEnabled() and fetching them from database now and on the basis of this JWT will be generated if locked then no JWT will be generated. (security) Important video.\n\nTime stamps:\n00:00 What are we going to do in this briefing.\n06:08 Changing logic for isAccountNonExpired(), isAccountNonLocked(), isCredentialsNonExpired(), isEnabled() in customUserDetails class (security)\n07:44 Testing, now JWT is not giving tokens for locked users. (security)\n08:20 Now how to make user active using emails, whole logic\n13:00 Encoding secret information and making encoded confirmation string.\n14:22 Adding openfeign dependency so that we can call notification service to send emails.\n15:09 Making feign package and adding logic for notification service.\n17:38 Logic for sending user confirmation email at the time of registering with us.\n24:38 Testing with postman.\n29:29 Getting java.lang.NullPointerException: cannot invoke \"java.util.List.get(int)\" because te return value of is null. and fixing this.\n30:59 Adding controller logic to handle to sent confirmation url and make user active in or database.\n31:49 Adding decoder object and whole logic.\n35:39 Query did not return a unique result, exception org.hibernate.NonUniqueResultException and then correcting both exceptions.\n38:08 Testing \"Query\" exception is fixed and working correctly if user is locker, no token will be generated.\n38:38 Adding logic to bypass the public endpoints which are not working, fixing that too (ApiAuthenticationFilter) GatewayFilter. (security)\n40:28 Both exceptions are solved and testing, got the confirmation msg, and continuing to make that user active in database. (writing logic)\n52:18 Final testing from sent email.\n55:55 logic completed."
+    },
+    {
+        "title": "Create Refresh Token from Expired tokens ( JWT ) security and user validations, in Hindi video 18",
+        "url": "https://www.youtube.com/watch?v=BEv_E3ESvm4",
+        "thumbnail": "https://i.ytimg.com/vi/BEv_E3ESvm4/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #refreshtoken #jwt \n\nIn this video what we have covered is about refresh token, what is the use, how to make it with this architecture then most important part to create token from expired JWT token and what problem is it solving in real life. Also, a small part for user validations as mentioned before.\n\nTime samps:\n00:00 What we are going to do? (Discussion)\n01:30 Importance about Refresh token, what problem it is solving?\n02:24 Implementation\n13:15 Testing new formed tokens\n14:25 Implementing logic behind creating tokens from expired tokens\n22:56 Adding endpoints and making that endpoint accessible\n23:48 io.jsonwetoken.ExpiredJwtException: JWT expired at exception occured, handling this exception\n31:43 Testing generateRefreshToken endpoint and testing with postman and jwt.io\n32:56 User validations (user name and user email unique validation) and implementing it and testing it."
+    },
+    {
+        "title": "How to make confirmation mail to expire after 5 minutes? Hindi video 19",
+        "url": "https://www.youtube.com/watch?v=mzL69n3Jc8M",
+        "thumbnail": "https://i.ytimg.com/vi/mzL69n3Jc8M/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #confirmationmailexpiry\n\nIn this video we have implemented logic for expiring the confirmation mail sent by us after 5 minutes."
+    },
+    {
+        "title": "Method level security securing all endpoints in microservices using custom annotation Hindi video 20",
+        "url": "https://www.youtube.com/watch?v=T3O7pau3Vhw",
+        "thumbnail": "https://i.ytimg.com/vi/T3O7pau3Vhw/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #annotations #customannotation #security #microservicessecurity\n\nIn this video we have implemented Method level security and  securing all endpoints in microservices using custom annotation, permission based approach, the permission that admin have given to user. (most important video)\n\nTime stamps:\n00:00 Discussing about the problem\n02:25 Starting with different approach, i.e. custom annotation to implement security and line by line implementation and testing step by step.\n28:37 Adding permissions in jwt token.\n57:32 error at ::0 formal unbound in pointcut, handling this exception."
+    },
+    {
+        "title": "How to handle exceptions in spring boot microservices using controller Advices,  Hindi video 21",
+        "url": "https://www.youtube.com/watch?v=YuVX70-w6no",
+        "thumbnail": "https://i.ytimg.com/vi/YuVX70-w6no/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #exceptionhandlinginjava #exceptionhandling #controlleradvices\n\nThis is continuation of pervious video, in this we have handled exceptions and thrown that exceptions to user layer using controller advices."
+    },
+    {
+        "title": "Data JPA Auditing Part 2 Complete Logic, @createdBy, @modifiedBy, Hindi video 22",
+        "url": "https://www.youtube.com/watch?v=MaEWh1_pbCs",
+        "thumbnail": "https://i.ytimg.com/vi/MaEWh1_pbCs/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman #jpa #jpaauditing\n\nIt is a important video, due to fact if you want to keep track of your data in database that which user have made or updated this entry in database.\n\nIn this video I told steps in order to keeps tracks of which user have created or updated specific records in database. (Completed logic)\n\nTopics covered\n1. Jpa Auditing ( Complete Logic )\n2. Using jwtToken to get username.\n3. Singleton pattern class real life example.\n4. Where to use those @secureEndpoints annotation which we have created for security.\n5. Which users can update other users ( case handled )\n\nAnnotations used\n@EnableJpaAuditing\n@MappedSuperClass\n@LastModifiedBy\n@LastModifiedDate\n@CreatedBy \n@CreatedDate"
+    },
+    {
+        "title": "Git Config server (Externalized centralized git config server in microservices)  Hindi video 23",
+        "url": "https://www.youtube.com/watch?v=7-xJjupmekM",
+        "thumbnail": "https://i.ytimg.com/vi/7-xJjupmekM/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #configserver #git #externalconfiguration\n\nThis is config server for microservices, here we have centralized the configuration on the git and took out every configuration from the project itself."
+    },
+    {
+        "title": "Implementing Apache Kafka in microservices confirmation mails Advance Topic, Hindi video 24",
+        "url": "https://www.youtube.com/watch?v=MRIu2IoohNs",
+        "thumbnail": "https://i.ytimg.com/vi/MRIu2IoohNs/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #kafka #apachekafka \n\nIn this video we have implemented producer and consumer architecture using apache Kafka for handling bulk real time requests and sending mails in our microservices.\n\nThis is an advance topic.\n\nCommands\n.\\bin\\windows\\kafka-server-start.bat .\\config\\server.properties\n.\\bin\\windows\\zookeeper-server-start.bat .\\config\\zookeeper.properties\n\nTime Stamps\n00:00 Topic Introduction\n00:30 Why do we required apache Kafka in this microservice, discussing about problems we are facing in our microservice.\n03:07 What Kafka exactly used for?\n05:02 Taking about zookeeper and Kafka server, how to install that\n08:07 Adding Kafka and required dependency to get started in our microservice\n09:47 Adding producer service implementation logic class\n13:07 Adding Kafka configuration in application.properties\n19:27 Adding consumer service implementation logic class\n23:47 Exception i.e No group.id found in consumer config, container properties, or @KafkaListener annotation; a goup.id is required when group management is used and handling this and testing\n27:27 springframework.messaging.converter.MessageConversionException: cannot convert from [java.lang.String] to [com.ecom.common...] for generic message and handling it, then testing it."
+    },
+    {
+        "title": "Implementing ELK Centralized log, zipkin in microservices spring boot 3 Advance Topic Hindi video 25",
+        "url": "https://www.youtube.com/watch?v=3NBpUIzCCRo",
+        "thumbnail": "https://i.ytimg.com/vi/3NBpUIzCCRo/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #elk #elasticsearch #logstash #kibana #sleuth #zipkin \n\nTech used with Spring boot 3 and jdk 17\n1. Zipkin ( 3.0.5 ) latest\nhttps://zipkin.io/pages/quickstart.html\n2. Elastic search\nhttps://www.elastic.co/downloads/elasticsearch\n3. Kibana UI \nhttps://www.elastic.co/downloads/kibana\n4. Logstash\nhttps://www.elastic.co/downloads/logstash\n\nIn this video we have implemented ELK (elastic search, logstash, kibana console) and sleuth and zipkin in our microservices.\n\nMain reason is that we want to enable tracing and logging in our microservice for better Exception handling.\n\nThis is an advance topic.\n\nCommands\nelasticsearch-reset-password -u elastic -i\nfor elastic search password reset \n\n.\\bin\\logstash -f .\\config\\logstash.conf\nto start logstach\n\nPorts\nkibana : 5601\nelastice search : 9200\nzipkin : 9411\n\n\nTime Stamps\n00:00 Introduction\n00:35 Sleuth, Zipkin, Elk overview\n01:42 Why do we need ELk or centralized logging\n04:28 Special message for all of you\n05:09 Downloading zipkin (link in desc)\n06:37 Adding dependencies in Microservice for Tracing\n08:17 Error java.lang.unsupportedclassversionerror and how to fix it.\n09:32 Apache zookeeper error (the system cannot find the path specified) and fixing it.\n10:39 Starting Zipkin server\n11:27 Making logs folder and adding it in microservices and configuring it for logs generation.\n12:10 Adding actuator dependency.\n15:08 Enabling tracing management.tracing.sampling.probability = 1.0 and adding in application.properties\n17:21 Generating logs and checking on zipkin\n23:29 Starting with ELK ( downloading and installing and setting up )\n26:24 Resetting elastic search password for elastic user.\n27:14 Testing elastic search\n30:10 Configure Elastic to get started and configuring it.\n30:33 Creating enrollment token for elastic search\n31:55 Getting started with kibana.\n32:56 Starting logstash.\n\nThank you (basic microservice architecture is finished, now we will start Angular)"
+    },
+    {
+        "title": "Angular 17 Latest installation and project structure introduction Hindi video 26",
+        "url": "https://www.youtube.com/watch?v=tzYXcIeYWGo",
+        "thumbnail": "https://i.ytimg.com/vi/tzYXcIeYWGo/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering \n\nTopics Covered\n1. Nodejs installation\n2. Angular installation\n3. Difference between Angular and React\n4. How to create angular project\n5. Angular project Structure Introduction"
+    },
+    {
+        "title": "Angular Material App Bar (Angular 17) Hindi video 27",
+        "url": "https://www.youtube.com/watch?v=WTG_wUn7P8g",
+        "thumbnail": "https://i.ytimg.com/vi/WTG_wUn7P8g/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering"
+    },
+    {
+        "title": "Spring Boot 3x code for Handling images for product API Hindi video 28",
+        "url": "https://www.youtube.com/watch?v=7oomgsijU6Q",
+        "thumbnail": "https://i.ytimg.com/vi/7oomgsijU6Q/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering \n\n15:51 Error \"content-type 'multipart/form-data;boundary=----;charset=UTF-8' is not supported\" And fixing this error."
+    },
+    {
+        "title": "Displaying all product with images (Angular and spring boot interaction API calling ) Hindi video 29",
+        "url": "https://www.youtube.com/watch?v=xxT_OedYC9k",
+        "thumbnail": "https://i.ytimg.com/vi/xxT_OedYC9k/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering"
+    },
+    {
+        "title": "Angular and spring boot, Angular material, login and signup with email and password Hindi video 30",
+        "url": "https://www.youtube.com/watch?v=L3OuBPqE16o",
+        "thumbnail": "https://i.ytimg.com/vi/L3OuBPqE16o/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #login #login_form #angularmaterial #registration #service \n\n00:30 what we will do in this video\n01:00 Angular Material Dialog component walkthrough\n02:10 Started to make Singup/registration popup.\n04:40 Customizing our popup according to our needs.\n06:40 ngModal data binding\n11:20 Adding login and signup in same component logic.\n15:50 Making angular service for login and singup to enable Spring boot Integration.\n18:00 Adding user dto for Angular.\n20:40 Writing logic for login and signup.\n26:40 Adding condition based code to handle login or signup design.\n31:40 Data binding for user registration.\n39:40 Testing integration\n40:20 Most common error CROS error/ exception from angular, and how to handle it.\n43:40 Testing signup Form\n50:20 Testing login Form"
+    },
+    {
+        "title": "Google singin and login(User Management) with Angular 17 and custom Springboot 3x API Hindi video 31",
+        "url": "https://www.youtube.com/watch?v=i2tk43HNblc",
+        "thumbnail": "https://i.ytimg.com/vi/i2tk43HNblc/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #login #login_form #angularmaterial #registration #service \n\n00:30 what we will do in this video\n03:55 making new project on google cloud console to get client id\n07:45 Generating google login button with client id token\n09:05 Adding button in angular\n11:35 Adding google script in angular for button\n12:45 testing login button\n13:35 Adding data-callback to handle response\n15:15 Writing script code for data-callback so that it can work in angular\n22:45 Testing google button for response on front end\n24:35 Starting to make a single API to handle google signup and login in our project\n45:15 Testing API from postman\n47:55 Integrating API with Angular\n55:35 Final full testing from Angular to Springboot to Database for google signin and login\n\n\nUrl for generating google button\nhttps://developers.google.com/identity/gsi/web/tools/configurator"
+    },
+    {
+        "title": "Footer using angular material tool bar Hindi video 32",
+        "url": "https://www.youtube.com/watch?v=FdoMISxD4-Q",
+        "thumbnail": "https://i.ytimg.com/vi/FdoMISxD4-Q/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #login #login_form #angularmaterial #registration #service"
+    },
+    {
+        "title": "Angular & Spring boot search bar for product website Hindi video 33",
+        "url": "https://www.youtube.com/watch?v=8YFtITOr2SM",
+        "thumbnail": "https://i.ytimg.com/vi/8YFtITOr2SM/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #login #login_form #angularmaterial #registration #service"
+    },
+    {
+        "title": "Angular routing Navigating from Signin to User dashboard Page, Hindi video 34",
+        "url": "https://www.youtube.com/watch?v=-Xhl8wgUSrA",
+        "thumbnail": "https://i.ytimg.com/vi/-Xhl8wgUSrA/mqdefault.jpg",
+        "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #angular17 #angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #login #login_form #angularmaterial #registration #service #angular17  #routing"
+    },
+    {
+        "title": "Cart page for angular and spring boot,  Hindi video 35",
+        "url": "https://www.youtube.com/watch?v=YTR-97wHP2U",
+        "thumbnail": "https://i.ytimg.com/vi/YTR-97wHP2U/mqdefault.jpg",
+        "description": "Cart page for angular and spring boot,  Hindi video 35\ncart page for angular and spring boot in 1 video\n#angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #angularmaterial #angular17  #angular #springboot project, #angular, #springboot, #cartpageforangular\n\nfull stack project ecommerce application development using angular and spring boot,"
+    },
+    {
+        "title": "Environment.ts in angular 17, Hindi video 36",
+        "url": "https://www.youtube.com/watch?v=h-gDra5TpqA",
+        "thumbnail": "https://i.ytimg.com/vi/h-gDra5TpqA/mqdefault.jpg",
+        "description": "Environment.ts in angular 17, Hindi video 36\nwhere is environment.ts in angular 17?\n#angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #angularmaterial #angular17  #angular #springboot project, #angular, #springboot, #environment"
+    },
+    {
+        "title": "User dashboard for angular",
+        "url": "https://www.youtube.com/watch?v=BCCCwWMLNHY",
+        "thumbnail": "https://i.ytimg.com/vi/BCCCwWMLNHY/mqdefault.jpg",
+        "description": "User dashboard for angular, User dashboard for angular 17 Hindi video 37\n\n#angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #angularmaterial #angular17  #angular #springboot project, #angular, #springboot, #environment #dashboard #uidesign #ui \n\nGit hub repo link for design:\nhttps://github.com/code-with-gaurav97/user-profile-design"
+    }
+]
