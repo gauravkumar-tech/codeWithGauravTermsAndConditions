@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "playlist_name":"Ecommerce project",
+        "playlist_image":"https://i.ytimg.com/vi/G9Oe-SzG-kY/mqdefault.jpg",
+        "playist_url":"ecommerce_playlist.json"
+    },
+    {
+        "id":"2",
+        "playlist_name":"Logic building",
+        "playlist_image":"https://i.ytimg.com/vi/y_o1DNyjQkk/mqdefault.jpg",
+        "playist_url":"Patterns_playlist_videos.json"
+    },
+    {
+        "id":"3",
+        "playlist_name":"Character Shorts",
+        "playlist_image":"https://i.ytimg.com/vi/ZpBjXNlolU0/mqdefault.jpg",
+        "playist_url":"characters_playlist_videos.json"
+    }
+]
