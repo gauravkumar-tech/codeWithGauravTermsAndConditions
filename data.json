@@ -1,6 +1,23 @@
 {
-  "pattern":"Patterns_playlist_videos.json",
-  "character":"characters_playlist_videos.json",
-  "ecom":"ecommerce_playlist.json",
-  "security":"Spring_security_series.json"
+  "security":{
+    "file": "Spring_security_series.json",
+    "title": "Spring Security",
+    "thumbnail": "https://i.ytimg.com/vi/MqIMsYstoBM/mqdefault.jpg"
+  },
+  "ecom":{
+    "file": "ecommerce_playlist.json",
+    "title": "Ecommerce project",
+    "thumbnail": "https://i.ytimg.com/vi/G9Oe-SzG-kY/mqdefault.jpg"
+    
+  },
+  "pattern":{
+    "file": "Patterns_playlist_videos.json",
+    "title": "Logic Building",
+    "thumbnail": "https://i.ytimg.com/vi/y_o1DNyjQkk/mqdefault.jpg"
+  },
+  "character":{
+    "file": "characters_playlist_videos.json",
+    "title": "Character Shorts",
+    "thumbnail": "https://i.ytimg.com/vi/ZpBjXNlolU0/mqdefault.jpg"
+  },
 }
