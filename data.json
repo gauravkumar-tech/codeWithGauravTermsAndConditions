@@ -4,11 +4,30 @@
     "title": "Spring Security",
     "thumbnail": "https://i.ytimg.com/vi/MqIMsYstoBM/mqdefault.jpg"
   },
+  "oauth":{
+    "file": "oauth2.json",
+    "title": "Oauth 2.0 (Client + Resource + Github + Google + Oauth Server)",
+    "thumbnail": "https://i.ytimg.com/vi/gbabgGAHVGU/mqdefault.jpg"
+  },
   "ecom":{
     "file": "ecommerce_playlist.json",
     "title": "Ecommerce project",
     "thumbnail": "https://i.ytimg.com/vi/G9Oe-SzG-kY/mqdefault.jpg"
-    
+  },
+   "css":{
+    "file": "css_html_js.json",
+    "title": "CSS HTML JS",
+    "thumbnail": "https://i.ytimg.com/vi/QSFEt6xYCNM/mqdefault.jpg"
+  },
+  "chatbot":{
+    "file": "chatbot.json",
+    "title": "Chatbot",
+    "thumbnail": "https://i.ytimg.com/vi/pVn7FyNSqAE/mqdefault.jpg"
+  },
+  "installation":{
+    "file": "installation_videos.json",
+    "title": "Installation Videos",
+    "thumbnail": "https://i.ytimg.com/vi/MRIu2IoohNs/mqdefault.jpg"
   },
   "pattern":{
     "file": "Patterns_playlist_videos.json",
