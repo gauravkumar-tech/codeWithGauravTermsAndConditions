@@ -29,7 +29,7 @@
     },
     {
         "id": "tloa7PjZ-A8",
-        "title": "Product API (Product Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 4",
+        "title": "Product API (Product Service in 1 Go, Ecommerce microservice) in Hindi Video 4",
         "url": "https://www.youtube.com/watch?v=tloa7PjZ-A8",
         "thumbnail": "https://i.ytimg.com/vi/tloa7PjZ-A8/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole Product API Service, which will be dealing with products related stuff.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime Stamps\n00:00 Generating spring boot projects for all project.\n01:24 Adding Dependencies in spring boot project.\n03:33 Extracting and moving to work place.\n05:23 Making new collection in Postman.\n06:06 Importing project inside Intellij Idea.\n08:08 Generating model package, super class(Auditable class).\n16:58 Making Product Model class.\n21:48 Adding configuration inside application.properties file related with MySQL and Hibernate, adding MySQL dependency inside pom.xml\n30:18 MySQL 5.5 Error Occurred.\n34:45 MySQL 5.5 Error Resolved, making product database.\n36:43 Making Repository which deal with database from our project.\n38:21 Writing Service Interface and Service Implementation code.\n46:11 Writing Controller Class, i.e. ProductController. (Pathvariable and responseBody and RepsonseEntity)\n53:11 Running project and testing API with postman, adding new Requests i.e. @getmapping, @postmapping, @putmapping and @deletemapping.\n58:31 Throwing Error from API to be sent to Postman/UI/Client to display.\n1:00:51 Writing code for Update and Delete Product.\n1:02:31 Making Product helper class, following industry standards.\n1:05:11 Writing Service Implementation logic for update and delete methods.\n1:10:56 Writing Controller Code for update and delete logic.\n1:13:03 Adding new Requests inside postman collection, i.e. for update and delete and testing through postman.\n1:16:13 Finally writing logic to throw exception from API to UI."
@@ -43,14 +43,14 @@
     },
     {
         "id": "6qwaozHerls",
-        "title": "Add Maven project into Spring Boot project as Dependency (Common code) Hindi Video 6",
+        "title": "Add Maven project into Spring Boot project as Dependency Hindi Video 6",
         "url": "https://www.youtube.com/watch?v=6qwaozHerls",
         "thumbnail": "https://i.ytimg.com/vi/6qwaozHerls/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman #jpa #jpaauditing\n\nAnswer to the most asked Question How to add a maven project as a dependency into other projects, Spring boot project.\n\nTime Stamps\n00:32 Making new Maven Project.\n01:12 Building that project to check if there are any errors.\n01:32 Moving project into working directory.\n02:12 Opening Common (Maven project into Same Window as of Product API)\n02:52 Code changes for common and moving common code inside common from Product API, adding dependencies in pom.xml file\n10:02 Building Common jar so that it can be used inside the product API as a Dependency.\n10:52 Importing Common code inside Product API.\n12:22 Removing excess dependencies.\n13:42 Trying to run project but error occurred i.e. \"could not configure Spring data JPA auditing-feature because spring-aspects.jar is not on the classpath\" fix.\n16:02 Testing API with postman after Maven project injected as a Dependency to check if everything is working fine or not."
     },
     {
         "id": "d28DlnpaI1Y",
-        "title": "Eureka Discovery Server and Eureka Discovery Client ( registering product service ) Hindi video 7",
+        "title": "Eureka Discovery Server and Eureka Discovery Client Hindi video 7",
         "url": "https://www.youtube.com/watch?v=d28DlnpaI1Y",
         "thumbnail": "https://i.ytimg.com/vi/d28DlnpaI1Y/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #serviceregistry #eurekaserver #eurekadiscoverycserver \n\nIn this video we have done practical and made eureka discovery server and register product API as client.\n\n@EnableDiscoveryServer\n@EnableDiscoveryClient"
@@ -64,14 +64,14 @@
     },
     {
         "id": "Qv3Vka8qSYc",
-        "title": "(Spring boot 3) API gateway server for microservices, simplest explanation ever (Hindi) video 9",
+        "title": "API gateway server for microservices, simplest explanation ever (Hindi) video 9",
         "url": "https://www.youtube.com/watch?v=Qv3Vka8qSYc",
         "thumbnail": "https://i.ytimg.com/vi/Qv3Vka8qSYc/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #apigateway #springboot3 #springcloud \n\nAPI Gateway server to give a single endpoint so that it can redirect your route URLs to specific microservices, implemented on Spring boot 3, Simplest explanation ever."
     },
     {
         "id": "oYgZrx1Ntmg",
-        "title": "Order API (Order Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 10",
+        "title": "Order API (Order Service in 1 Go, Ecommerce microservice) in Hindi Video 10",
         "url": "https://www.youtube.com/watch?v=oYgZrx1Ntmg",
         "thumbnail": "https://i.ytimg.com/vi/oYgZrx1Ntmg/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole Order API Service, which will be dealing with Order related stuff with a separate Database.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime Stamps:\n00:00 Discussing about architecture of our microservice, where we are now and what we have achieved till now and what we are going to do next.\n03:27 Importing Order Spring boot 3 project in Intellij Idea.\n04:07 Setting up required dependencies.\n08:17 Setting up application.properties for order service and creating orderDB\n10:57 Enabling discovery client @EnableDiscoveryClient annotation so that it can register itself in registry service and @EnableJpaAuditing.\n11:27 Adding Model package and making order class, discussing about structure, extending Auditable and implementing serializable.\n22:37 Adding OrderRepository and a little discussion about repository.\n24:27 Telling about custom finder method or custom query method used in spring data Jpa with example.\n26:57 Adding Service package and adding method definitions.\n28:27 Adding OrderServiceImpl logic and service methods implementations.\n30:37 Writing Controller code and discussing about it a little.\n34:57 Doing routing configuration related with Order API in API-Gateway and testing.\n40:47 An interesting error or issue and it's solution i.e. ( you have an error in your SQL syntax)\n46:17 Adding Order Requests in Microservice Collection inside Postman.\n47:57 Adding @GetMapping methods inside controller for fetching order details full implementation till it's repository layer.\n56:37 Testing Order API with Postman through API-Gateway.\n1:03:07 Discussing about Microservices intercommunication logic that what is the need of that inside this Order API service.\n1:04:27 Adding DTO package inside Common for Custom responses and implementing that logic with OrderResponse and ProductResponse classes and using them inside these 2 microservices.\n1:10:07 Adding helper methods for product API.\n1:17:07 Adding helper methods for Order API and discussing about microservice implementation and adding it inside another video the very next video."
@@ -92,7 +92,7 @@
     },
     {
         "id": "9pb_mkJORAs",
-        "title": "User API (User Service in 1 Go, Ecommerce microservice, Spring boot project) in Hindi Video 13",
+        "title": "User API (User Service in 1 Go, Ecommerce microservice) in Hindi Video 13",
         "url": "https://www.youtube.com/watch?v=9pb_mkJORAs",
         "thumbnail": "https://i.ytimg.com/vi/9pb_mkJORAs/mqdefault.jpg",
         "description": "#spring #springboot #springboottutorial #api #restapis #javaprogramming #java #javatutorial #microservicesarchitecture #microservice #microservicestutorial #controller  #service  #repository #mysql #postman \n\nIn this video we have created whole User API Service, which will be dealing with User related stuff with a separate Database.\nFrom controller to repository and saving data in MySQL and configurations. (Saving data from API to database and fetching, updating and deleting it) CRUD Operation.\n\nTime stamps\n00:00 Discussing what we will do in this video and importing user project in Intellij Idea\n02:36 Adding dependencies in pom.xml and properties in application.properties for Order API and adding annotation on the OrderApplication main java class.\n06:26 creating userDb for user API\n06:46 Starting model class code then repository, service and service implementation and then controller, discussing about different approach.\n29:56 Adding UserResponse class and its logic.\n31:26 Adding UserHelper utility method.\n34:26 Building Common and using it inside other projects.\n35:17 Starting UserApplication for the first time.\n35:57 Checking User-Service information/ entry on service registry i.e. on eureka server.\n36:17 Adding new folder i.e. user , under the collection and adding respective requests and testing the endpoints and correcting it.\n45:37 Adding API-Gateway configuration for user service.\n49:17 Altering Order model so that now we can get the desired output as discussed.\n50:27 Adding userService (feign client) in Order API which will talk to User service to get the data, finally writing code for the same and testing it and modifying it till it gives us the desired result."
@@ -265,4 +265,5 @@
         "thumbnail": "https://i.ytimg.com/vi/BCCCwWMLNHY/mqdefault.jpg",
         "description": "User dashboard for angular, User dashboard for angular 17 Hindi video 37\n\n#angularproject #fullstacktraining #fullstack #fullstacksoftwareengineering #angularmaterial #angular17  #angular #springboot project, #angular, #springboot, #environment #dashboard #uidesign #ui \n\nGit hub repo link for design:\nhttps://github.com/code-with-gaurav97/user-profile-design"
     }
+
 ]
