@@ -8,7 +8,7 @@
     },
     {
         "id": "cLnXfqaZm44",
-        "title": "Spring Boot OAuth2 Custom Login Page Tutorial | Custom Login Page with HTML, CSS, Thymeleaf",
+        "title": "Spring Boot OAuth2 Custom Login Page Tutorial | HTML, CSS, Thymeleaf",
         "url": "https://www.youtube.com/watch?v=cLnXfqaZm44",
         "thumbnail": "https://i.ytimg.com/vi/cLnXfqaZm44/mqdefault.jpg",
         "description": "In this tutorial, we build a Spring Boot OAuth2 Custom Login Page using HTML, CSS, JavaScript, and Thymeleaf.\nThis is the continuation of our OAuth2 series where we connect a Spring Boot OAuth2 Custom Login Page to our Authorization Server using Java 21, Spring Security 6, and database authentication.\n\nYou will learn how to design the UI, configure the login form, and integrate your Spring Boot OAuth2 Custom Login Page with JWT + Session authentication.\n\n🔥 What You Will Learn\n\nBuild a custom HTML/CSS login page\nIntegrate Thymeleaf login form with OAuth2\nConnect login to database users\nConfigure JWT + Session authentication\nReplace default Spring Security login screen\n\nspring boot oauth2 custom login page\nspring boot oauth2 custom login page tutorial\nspring boot oauth2 custom login page thymeleaf"
@@ -20,4 +20,5 @@
         "thumbnail": "https://i.ytimg.com/vi/pVn7FyNSqAE/mqdefault.jpg",
         "description": "Learn how to build a Chatbot UI using HTML CSS JavaScript in this complete step-by-step Chatbot UI Design Tutorial.\nThis video teaches you how to design a modern chatbot interface using HTML, CSS, and JavaScript, and how to make the chatbot UI interactive.\n\nChatbot full standalone part 1\nhttps://youtu.be/s-2WdY8AOfM\n\nTimestamp\n**video starts at 00:01:00\n\nYou’ll learn:\n\n✔ How to create a chatbot UI layout using HTML\n✔ How to design a modern chatbot UI using CSS\n✔ How to add interactivity with JavaScript\n✔ How to structure a complete chat interface\n✔ How message bubbles, animations, and UI components work\n✔ How to build a responsive chatbot UI for desktop + mobile\n✔ How to connect this chatbot UI with backend later (optional)\n\nThis HTML CSS JavaScript Chatbot UI Tutorial is perfect for beginners, frontend developers, Java developers, and anyone creating chatbot projects.\n\n🔥 What You’ll Build\n• Clean modern chatbot interface\n• Chatbot UI message bubbles\n• Chat container + scroll behavior\n• Fully responsive chatbot design\n\n📘 Technologies Used\nHTML • CSS • JavaScript\n\n💬 Perfect For\nFrontend developers • Full-stack beginners • Web development students • Chatbot UI designers\n\n👉 Like, Comment, Share & Subscribe for more Frontend + Java + Spring Boot tutorials!\n\n#ChatbotUI #HTMLCSSJS #ChatbotUIDesign #HTMLCSS #JavaScriptTutorial #WebDevelopment2025 #FrontendDesign #ChatbotProject"
     }
+
 ]
