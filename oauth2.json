@@ -33,6 +33,14 @@
         "url": "https://www.youtube.com/watch?v=vZ8qtS7lVxQ",
         "thumbnail": "https://i.ytimg.com/vi/vZ8qtS7lVxQ/mqdefault.jpg",
         "description": "OAuth2 SSO Login Spring Boot using Google and GitHub explained step by step.\n\nIn this tutorial, you will build a complete OAuth2 authentication system using Spring Boot, Spring Security, Google Login, and GitHub Login step by step.\n\n🔥 What you will learn:\n✔ OAuth2 Authorization Flow explained\n✔ Google OAuth2 Login Integration\n✔ GitHub OAuth2 Login Integration\n✔ Spring Security OAuth2 Configuration\n✔ Client ID & Client Secret Setup\n✔ Secure Login with SSO\n✔ Production-ready authentication setup\n\nThis video is perfect for Java developers, Spring Boot beginners, and backend engineers preparing for interviews or real-world projects.\n\n📌 Tech Stack:\n- Java\n- Spring Boot\n- Spring Security\n- OAuth2\n- Google Login\n- GitHub Login\n\n👍 Like, Share & Subscribe for more Spring Boot and Security tutorials!"
+    },
+    {
+        "id": "XEFGucX_y4c",
+        "title": "Microservices OAuth2 Crash Course, Auth Server Client Resource Server",
+        "url": "https://www.youtube.com/watch?v=XEFGucX_y4c",
+        "thumbnail": "https://i.ytimg.com/vi/XEFGucX_y4c/mqdefault.jpg",
+        "description": "microservices oauth2 crash course with auth server client server and resource server.\nmicroservices oauth2 crash course tutorial for auth server client server and resource server.\n\n\nYou will learn OAuth2 flows, token generation, validation, and secure communication between microservices using Spring Boot and Spring Security.\n\nWhat you will learn:\n- OAuth2 architecture in microservices\n- Auth Server vs Client vs Resource Server\n- Access token and refresh token flow\n- Spring Security OAuth2 implementation\n- Real-world microservices security design\n- Production-ready authentication setup\n\nPerfect for backend developers, Spring Boot engineers, and interview preparation.\n\nEnglish subtitles included."
     }
 ]
+
 
