@@ -22,7 +22,7 @@
     },
      {
         "id": "gESxpkHsV74",
-        "title": "Spring Boot JWT + Database Authentication EXPLAINED (2025) | Hidden Secrets Nobody Shows You",
+        "title": "Spring Boot JWT + Database Authentication EXPLAINED (2025)",
         "url": "https://www.youtube.com/watch?v=gESxpkHsV74",
         "thumbnail": "https://i.ytimg.com/vi/gESxpkHsV74/mqdefault.jpg",
         "description": "Unlock the REAL secrets behind Spring Boot JWT + Database Authentication in this complete step-by-step guide.\nIf your JWT token fails, does not validate, or database authentication isn’t working — this video will FIX it.\n\nIn this tutorial you’ll learn:\n\n🔐 JWT Authentication Internals\n– How Spring Security processes login\n– Why your JWT token fails signature validation\n– How JWT is generated, signed, and verified\n\n🗄 Database Authentication (MySQL/PostgreSQL)\n– How to store users securely in DB\n– How Spring Security checks credentials\n– How to use UserDetails + PasswordEncoder correctly\n\n⚙ Fixing Common JWT Errors\n– Token signature mismatch\n– 403 unauthorized\n– Token not working after login\n– Database user not loading\n\n🚀 Complete Authentication Flow Explained\n– Login → Verify → Generate Token → Validate → Secure Endpoints\n\n📘 Technologies Used\n\nSpring Boot • Spring Security • JWT • MySQL • PostgreSQL • Java 17 • IntelliJ IDEA • Maven\n\n💡 Who Should Watch?\n\nJava developers • Backend devs • Full-stack beginners • Spring Boot learners • Anyone building a secure API in 2025\n\n🔗 Project Repository\n\nhttps://github.com/gauravkumar-tech/SpringBootJWTSecurity\n\n👍 Support the Channel\n\nLike, Comment, and Subscribe for more Java + Spring Boot real-world projects!\n\n📌 Hashtags\n\n#SpringBoot #SpringSecurity #JWTAuthentication #JavaDeveloper #JWTToken #BackendDevelopment #SpringBootSecurity #JavaBackend #MySQL #PostgreSQL"
@@ -36,14 +36,14 @@
     },
      {
         "id": "gbabgGAHVGU",
-        "title": "Local OAuth2.0 Authorization Server Tutorial (2025) | Java 21 + Spring Security + JWT + DB + Session",
+        "title": "Local OAuth2.0 Authorization Server (2025) | Java 21 + Spring Security + JWT + DB + Session",
         "url": "https://www.youtube.com/watch?v=gbabgGAHVGU",
         "thumbnail": "https://i.ytimg.com/vi/gbabgGAHVGU/mqdefault.jpg",
         "description": "Learn how to build a Local OAuth2.0 Authorization Server using Spring Security, Java 21, JWT, session authentication, and database connectivity — all using the latest 2025 Spring Boot & Spring Authorization Server updates.\n\nIn this step-by-step tutorial, we set up:\n\n✔ Local OAuth2.0 Authorization Server\n✔ Custom Login Page (username + password)\n✔ Database-backed user authentication\n✔ MySQL/PostgreSQL integration\n✔ JWT access tokens + refresh tokens\n✔ Session-based login support\n✔ Client registration\n✔ Secure OAuth2 flows (Authorization Code, Token)\n✔ Modern Spring Security configurations (Java 21 compatible)\n\nThis tutorial uses:\n• Spring Boot 4.x\n• Spring Authorization Server (latest release)\n• Java 21\n• Spring Security 6+\n• MySQL/PostgreSQL\n• OAuth2 Client + Resource Server setup (optional) - upcoming videos\n\n🔥 What You’ll Learn in This Video\n\n✔ How OAuth2.0 Authorization Server works\n✔ How to build an OAuth2.0 auth server locally\n✔ How to create custom login with Spring Security\n✔ How to store users in database (MySQL/PostgreSQL)\n✔ How JWT generation + validation works in OAuth2.0\n✔ How session authentication works\n✔ How to register OAuth2 clients\n✔ How to secure APIs using access tokens\n✔ How Spring Security 2025 authorization flows work\n\nWhether you're a Java developer, Spring Boot learner, or backend engineer, this project gives you real-world authentication skills.\n\n👨‍💻 Technologies Used\n\nSpring Boot • Spring Security • Spring Authorization Server • OAuth2.0 • JWT • Java 21 • MySQL • PostgreSQL • IntelliJ IDEA • Maven\n\n👉 Like, Comment & Subscribe for more Java + Spring Boot Security tutorials!\n\n#SpringBootSecurity #OAuth2 #SpringAuthorizationServer #JWTAuthentication #SpringSecurity #JavaBackend #OAuth2Tutorial #SpringBoot2025 #AuthorizationServer #Java21 #OAuth2Login #codewithgaurav97"
     },
      {
         "id": "cLnXfqaZm44",
-        "title": "Spring Boot OAuth2 Custom Login Page Tutorial | Custom Login Page with HTML, CSS, Thymeleaf",
+        "title": "Spring Boot OAuth2 Custom Login Page Tutorial | HTML, CSS, Thymeleaf",
         "url": "https://www.youtube.com/watch?v=cLnXfqaZm44",
         "thumbnail": "https://i.ytimg.com/vi/cLnXfqaZm44/mqdefault.jpg",
         "description": "In this tutorial, we build a Spring Boot OAuth2 Custom Login Page using HTML, CSS, JavaScript, and Thymeleaf.\nThis is the continuation of our OAuth2 series where we connect a Spring Boot OAuth2 Custom Login Page to our Authorization Server using Java 21, Spring Security 6, and database authentication.\n\nYou will learn how to design the UI, configure the login form, and integrate your Spring Boot OAuth2 Custom Login Page with JWT + Session authentication.\n\n🔥 What You Will Learn\n\nBuild a custom HTML/CSS login page\nIntegrate Thymeleaf login form with OAuth2\nConnect login to database users\nConfigure JWT + Session authentication\nReplace default Spring Security login screen\n\nspring boot oauth2 custom login page\nspring boot oauth2 custom login page tutorial\nspring boot oauth2 custom login page thymeleaf"
@@ -71,4 +71,5 @@
     }
 
 ]
+
 
