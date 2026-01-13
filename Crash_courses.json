@@ -1,0 +1,16 @@
+[
+    {
+        "id": "j7MXrkNCHaw",
+        "title": "Core Java Crash Course Complete Java Tutorial in One Video",
+        "url": "https://www.youtube.com/watch?v=j7MXrkNCHaw",
+        "thumbnail": "https://i.ytimg.com/vi/j7MXrkNCHaw/mqdefault.jpg",
+        "description": "core java crash course\ncore java crash course covering all core java topics in one video.\nthis core java crash course is a complete guide for beginners and interview preparation.\n\nThis core java crash course is a complete java tutorial covering everything required for beginners, students, and interview preparation.\n\nTopics covered in this video:\n1. What is Java\n2. Java Program Structure\n3. Variables and Data Types\n4. Operators\n5. Control Statements\n6. Arrays\n7. Strings\n8. Methods\n9. OOPS Concepts\n10. Constructors\n11. Exception Handling\n12. Collections Framework\n13. Java 8 Features\n14. Multithreading\n\nThis video is perfect for:\n- Java beginners\n- Core Java interview preparation\n- College students\n- Backend developers\n\nEnglish subtitles included.\n\ncore java crash course\n\nTimestamps\n\n01:07 what is java? (language introduction) JDK JRE Explained\n12:37 Java Program structure\n21:47 Creating project to run java programs\n26:57 variables and data types ( primitive and non-primitive )\n36:57 operators\n47:57 control statements (if, else, else-if, and loops while, do-while, for)\n1:01:57 Arrays in java\n1:18:07 Strings in java\n1:22:07 Methods in java\n1:28:57 oops concepts in java\n1:30:27 classes and objects\n1:33:57 inheritance\n1:43:57 types of inheritance\n1:49:17 polymorphism ( compile-time and run-time )\n1:53:17 encapsulation\n2:03:01 abstraction (interfaces and abstract classes)\n2:03:31 constructors ( constructor - chaining )\n2:09:51 Exception handling\n2:20:11 Exception hierarchy\n2:23:41 Collections Framework ( full chart and demo )\n2:38:01 Every loop for iteration of collection\n2:41:11 Java new Features\n2:44:41 Stream API\n2:47:31 Predicate, Function, Consumer, Supplier Interfaces\n2:57:01 Multi-threading ( Thread and Runnable )"
+    },
+    {
+        "id": "XEFGucX_y4c",
+        "title": "Microservices OAuth2 Crash Course, Auth Server Client Resource Server",
+        "url": "https://www.youtube.com/watch?v=XEFGucX_y4c",
+        "thumbnail": "https://i.ytimg.com/vi/XEFGucX_y4c/mqdefault.jpg",
+        "description": "microservices oauth2 crash course with auth server client server and resource server.\nmicroservices oauth2 crash course tutorial for auth server client server and resource server.\n\n\nYou will learn OAuth2 flows, token generation, validation, and secure communication between microservices using Spring Boot and Spring Security.\n\nWhat you will learn:\n- OAuth2 architecture in microservices\n- Auth Server vs Client vs Resource Server\n- Access token and refresh token flow\n- Spring Security OAuth2 implementation\n- Real-world microservices security design\n- Production-ready authentication setup\n\nPerfect for backend developers, Spring Boot engineers, and interview preparation.\n\nEnglish subtitles included."
+    }
+]
